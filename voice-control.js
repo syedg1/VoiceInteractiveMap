@@ -24,7 +24,8 @@ if (annyang) {
             voiceFeedback("Hamilton is Ontario’s fifth most-populous city, but it ranks 27th for population density.");
             voiceFeedback("This means that there is plenty of space for everybody. Properties can be large, with plenty of garden space, and a large share of the population lives in dispersed suburbs around the downtown core.")
         } else if (subject.includes("history")) {
-            voiceFeedback("The site was visited by the French explorer René-Robert Cavelier in 1669. Settlement began with the arrival of loyalists fleeing the rebellious 13 American colonies in 1778. The city was named after George Hamilton, who laid out the original town in 1815 ");
+            voiceFeedback("The site was visited by the French explorer René-Robert Cavelier in 1669. Settlement began with the arrival of loyalists fleeing the rebellious 13 American colonies in 1778.");
+            voiceFeedback("The city was named after George Hamilton, who laid out the original town in 1815.")
         } else {
             voiceFeedback("Sorry, I did not get that!");
         }    
