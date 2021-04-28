@@ -7,3 +7,9 @@ This application is targeted at tourists of Hamilton, Ontario and it contains th
 - Voice Controlled Map
 - Displays Museums, Parks, and Waterfalls in Hamilton
 - Provides information regarding the City of Hamilton
+
+<br>
+<br>
+
+![Capture14](https://user-images.githubusercontent.com/33561776/116423540-c69b3100-a80e-11eb-9341-2ec39ec695d5.JPG)
+
