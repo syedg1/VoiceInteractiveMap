@@ -1,0 +1,13 @@
+Please use the script given below: 
+
+Show Museums
+Clear Map
+Show Parks
+Clear Map
+Show Waterfalls 
+Clear Map 
+Information about Hamilton
+Information about History
+Information about Industry
+Information about Population
+Jupiter (For error handling purposes)

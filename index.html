@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tourism Hamilton Application</title>
+  <style>p { font-size: 24px; }</style>
+</head>
+<body>
+  <div class="container-fluid app-container">
+    <div class="row justify-content-center title-container">
+      <h1>Tourism Hamilton<br/><p>Click Start to activate voice commands!</p></h1>
+    </div>
+    <div class="row map-row justify-content-between">
+      <div class="col-lg-9 col-md-12 mb-5">
+        <div id="myMap"></div>
+      </div>
+      <div class="col-lg-3 col-md-12 mb-3">
+        <button id="start" type="button" class="btn btn-success">Start</button>
+        <p class='commands'><strong>Map Commands:</strong><br/>
+          Show Museums <br />
+          Show Parks <br />
+          Show Waterfalls <br />
+          Clear Map <br/> <br/>
+          <strong>Informational Commands:</strong><br/>
+          Information about Hamilton <br/>
+          Information about History <br/>
+          Information about Industry <br/>
+          Information about Population <br/>
+          </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Load in the javascript resources -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+  <script src="parks.js"></script>
+  <script src="museums.js"></script>
+  <script src="waterfalls.js"></script>
+  <script src="voice-control.js"></script>
+  <script src="https://www.bing.com/api/maps/mapcontrol?key=Ao9pr871PkWBHGRHO0L9f_kuQRMt5jgnmM-oQ8i0e6Ll-8DNNEgrcbiHr_wjaKq4&callback=loadmap" async defer></script>
+  <link rel="stylesheet" href="main.css">
+</body>
+</html>
+
